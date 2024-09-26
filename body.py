@@ -6,6 +6,7 @@ from moviepy.video.tools.subtitles import SubtitlesClip
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
 
+# use your own key. FYI this one is a dummy key 
 aai.settings.api_key = "767469f01f3545739f75c8e7b7a93f01"
 num_cores = multiprocessing.cpu_count()
 
